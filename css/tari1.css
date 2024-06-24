@@ -1,0 +1,190 @@
+body{
+	background-image:url(../Background/178231.jpg);
+	background-size:175%;
+	background-position:cover;
+	color:black;
+}
+@keyframes header{
+	0%
+	{
+		letter-spacing:-1px;
+		opacity:0%;
+		text-shadow: 0 0 0px #000000;
+	}
+	100%
+	{
+
+	}
+}
+h1{
+	font-family: "Montserrat", sans-serif;
+	color:#ffffff;
+	text-shadow: 2px 2px 20px #00aaaa;
+	text-align:center;
+	font-size:75px;
+	animation: header 1s 0s ease-in-out;
+}
+#navbar{
+	margin-left:auto;
+	margin-right:auto;
+}
+td{
+	color:white;
+	font-family: "Montserrat", sans-serif;
+	text-align:center;
+	padding-left:1%;
+	padding-right:1%;
+	border:2px solid white;
+	border-radius:10px;
+	width:150px;
+	margin-left:20px;
+	margin-right:20px;
+}
+#Navlink{
+	text-decoration:none;
+	color:#ffffff;
+}
+#Selected{
+	background-color:#00aaaa;
+}
+td:Hover{
+	background-color:#009999;
+	transition: 0.6s ease;
+
+}
+@keyframes title{
+	0%
+	{
+		margin-left:400px;
+		margin-right:400px;
+		letter-spacing: -1px;
+		opacity:0%;
+		text-shadow:0 0 0 #ffffff;
+	}
+	100%
+	{
+		margin-left:500px;
+		margin-right:500px;
+		letter-spacing: 0px;
+	}
+}
+.Title{
+	font-family:"Montserrat", sans-serif;
+	font-size:50px;
+	text-align:center;
+	color: #007777;
+	background:white;
+	margin-left:500px;
+	margin-right:500px;
+	border:2px solid white;
+	border-radius:20px;
+	animation: title 1s 0s ease-out;
+	text-shadow: 0 0 20px #99ffff;
+	margin-top:50px;
+}
+#Flag{
+	border: 1px solid white;
+	border-radius:10px;
+	margin-left:3px;
+	margin-top:3px;
+}
+.Cell{
+	border: 2px solid white;
+	border-radius:10px;
+	margin-left:200px;
+	margin-right:200px;
+	position:relative;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+.Cell:Hover{
+	background-color:#00aaaa;
+	transition:0.5s ease;
+}
+.NumeTara{
+	font-family:"Montserrat", sans-serif;
+	font-size:50px;
+	color:white;
+	text-align:right;
+	float:right;
+	margin-right:5px;
+}
+.Descriere{
+	font-family:"Montserrat", sans-serif;
+	font-size:15px;
+	color:white;
+	float:right;
+	margin-right:1px;
+	text-decoration:none;
+	text-align:right;
+}
+#Next{
+	text-decoration:none;
+}
+.ButonNext{
+	border: 2px solid white;
+	border-radius:10%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-family: Montserrat sans-serif;
+	color:white;
+	text-decoration:none;
+	width:100px;
+}
+.ButonNext:Hover{
+	background-color:#00aaaa;
+	transition:0.5s ease;
+}
+
+@media screen and (max-width:1400px)
+{
+	.Title{
+		margin-left:200px;
+		margin-right:200px;
+	}
+}
+@media screen and (max-width:900px)
+{
+	.NumeTara{
+		font-size:20px;
+	}
+	.Descriere{
+		font-size:10px;
+	}
+	#Flag{
+		width:100px;
+		height:60px;
+	}
+	.Cell{
+		margin-left:100px;
+		margin-right:100px;
+	}
+	h1{
+		font-size:50px;
+	}
+	
+}
+
+@media screen and (max-width:800px)
+{
+	.Title{
+		margin-left:200px;
+		margin-right:200px;
+		font-size:30px;
+	}
+	td{
+		width:100px;
+		font-size:10px;
+	}
+	
+}
+
+@media screen and (max-width:600px)
+{
+	.Title{
+		margin-left:50px;
+		margin-right:50px;
+		font-size:30px;
+	}
+}

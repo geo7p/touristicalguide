@@ -1,0 +1,237 @@
+body{
+	background-image:url(../Background/178231.jpg);
+	background-position:center;
+	color:black;
+}
+h1{
+	font-family: "Montserrat", sans-serif;
+	color:#ffffff;
+	text-shadow: 2px 2px 7px #00aaaa;
+	text-align:center;
+	font-size:75px;
+}
+#navbar{
+	margin-left:auto;
+	margin-right:auto;
+}
+td{
+	color:white;
+	font-family: "Montserrat", sans-serif;
+	text-align:center;
+	padding-left:1%;
+	padding-right:1%;
+	border:2px solid white;
+	border-radius:10px;
+	width:150px;
+	margin-left:20px;
+	margin-right:20px;
+}
+#Navlink{
+	text-decoration:none;
+	color:#ffffff;
+}
+#Selected{
+	background-color:#00aaaa;
+}
+td:Hover{
+	background-color:#009999;
+	transition: 0.6s ease;
+
+}
+.Antet{
+	border:2px solid white;
+	border-radius:20px;
+	margin-left:500px;
+	margin-right:500px;
+	margin-bottom:10px;
+	margin-top:50px;
+	height:50px;
+}
+#FlagImg1{
+	float:left;
+	margin-left:50px;
+	margin-top:10px;
+}
+.Titlu{
+	font-family: "Montserrat", sans-serif;
+	color:white;
+	font-size:40px;
+	float:right;
+	margin-right:100px;
+}
+.Continut{
+	width:1200px;
+	height:1000px;
+	margin-right:auto;
+	margin-left:auto;
+}	
+#lista{
+	width:120px;
+	float:left;
+	margin-left:50px;
+	margin-top:50px;
+}
+#ElemLista{
+	margin-bottom:10px;
+	text-decoration:none;
+	color:#ffffff;
+	margin-left:50px;
+}
+.Info{
+	float:right;
+	width:1000px;
+	text-align:left;
+	left:300px;
+	font-size:15px;
+	color:white;
+	font-family: "Montserrat", sans-serif;
+	margin-left:5px;
+}
+.TitluInfo{
+	font-size:30px;
+	color:white;
+	font-family: "Montserrat", sans-serif;
+	text-shadow: 2px 2px 7px #000000;
+}
+.Para{
+	text-shadow: 2px 2px 7px #000000;
+}
+@media screen and (max-width:1400px)
+{
+	.Antet{
+		margin-left:250px;
+		margin-right:250px;
+	}
+}
+@media screen and (max-width:950px)
+{
+	.Titlu{
+		font-size:30px;
+		margin-top:7px;
+	}
+}
+@media screen and (max-width:900px)
+{
+	.Info
+	{
+		width:600px;
+		margin-left:auto;
+		margin-right:auto;
+		float:none;
+	}
+	#lista
+	{
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:0px;
+	}
+	#ElemLista
+	{
+		font-size:15px;
+	}
+	.Continut
+	{
+		width:800px;
+		font-size:8px;
+	}
+	.Antet{
+		margin-left:100px;
+		margin-right:100px;
+	}
+	.FlagImg1
+	{
+		width:40px;
+		height:25px;
+	}
+}
+
+@media screen and (max-width:800px)
+{
+	td{
+		width:100px;
+		font-size:10px;
+	}
+	.Continut
+	{
+		width:700px;
+		font-size:8px;
+	}
+	.Info
+	{
+		width:500px;
+		margin-left:auto;
+		margin-right:auto;
+		float:none;
+	}
+	h1{
+		font-size:50px;
+	}
+}
+
+@media screen and (max-width:600px)
+{
+	.Title{
+		margin-left:50px;
+		margin-right:50px;
+		font-size:30px;
+	}
+	.Continut
+	{
+		width:500px;
+		font-size:8px;
+	}
+	.Info
+	{
+		width:300px;
+		margin-left:auto;
+		margin-right:auto;
+		float:none;
+	}
+	.Antet{
+		margin-left:50px;
+		margin-right:50px;
+	}
+}
+
+@media screen and (max-width:400px)
+{
+	.Title{
+		margin-left:50px;
+		margin-right:50px;
+		font-size:30px;
+	}
+	.Continut
+	{
+		width:300px;
+		font-size:8px;
+	}
+	.Info
+	{
+		width:200px;
+		margin-left:auto;
+		margin-right:auto;
+		float:none;
+	}
+}
+
+@media screen and (max-width:375px)
+{
+	.Title{
+		margin-left:50px;
+		margin-right:50px;
+		font-size:30px;
+	}
+	.Continut
+	{
+		width:300px;
+		font-size:8px;
+	}
+	.Info
+	{
+		width:100px;
+		margin-left:auto;
+		margin-right:auto;
+		float:none;
+	}
+}

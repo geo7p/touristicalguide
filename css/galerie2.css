@@ -1,0 +1,191 @@
+body{
+	background-image:url(../Background/178231.jpg);
+	background-size:250%;
+	background-position:right;
+	color:black;
+}
+h1{
+	font-family: "Montserrat", sans-serif;
+	color:#ffffff;
+	text-shadow: 2px 2px 7px #00aaaa;
+	text-align:center;
+	font-size:75px;
+}
+#navbar{
+	margin-left:auto;
+	margin-right:auto;
+}
+td{
+	color:white;
+	font-family: "Montserrat", sans-serif;
+	text-align:center;
+	padding-left:1%;
+	padding-right:1%;
+	border:2px solid white;
+	border-radius:10px;
+	width:150px;
+	margin-left:20px;
+	margin-right:20px;
+}
+#Navlink{
+	text-decoration:none;
+	color:#ffffff;
+}
+#Selected{
+	background-color:#00aaaa;
+}
+td:Hover{
+	background-color:#009999;
+	transition: 0.6s ease;
+
+}
+.AntetPrinc{
+	margin-top:30px;
+	text-align:center;
+	font-family:"Montserrat", sans-serif;
+	font-size:60px;
+	color:white;
+}
+.AntetTara{
+	border:2px solid white;
+	border-radius:20px;
+	margin-left:500px;
+	margin-right:500px;
+	margin-bottom:15px;
+	margin-top:20px;
+}
+#FlagImg1{
+	position:absolute;
+	margin-left:30px;
+	margin-top:10px;
+}
+.Titlu{
+	font-family: "Montserrat", sans-serif;
+	color:white;
+	font-size:40px;
+	position:relative;
+	text-align:right;
+	margin-right:50px;
+}
+.SetRame{
+	width:1300px;
+	margin-left:auto;
+	margin-right:auto;
+	height:250px;
+}
+.Rama{
+	border:2px solid white;
+	width:250px;
+	height:210px;
+	background-color: #ffffff;
+}
+.Rama:Hover{
+	box-shadow:0 0 10px #ffffff;
+	transition:0.3s ease;
+}
+.DescPoza{
+	font-family: "Montserrat", sans-serif;
+	color:#005555;
+}
+#Next{
+	text-decoration:none;
+}
+.ButonNext{
+	border: 2px solid white;
+	border-radius:10%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-family: Montserrat sans-serif;
+	color:white;
+	text-decoration:none;
+	width:200px;
+	height:15px;
+}
+.ButonNext:Hover{
+	background-color:#00aaaa;
+	transition:0.5s ease;
+}
+
+@media screen and (max-width:1400px)
+{
+	.Rama{
+		width:175px;
+		height:150px;
+	}
+	.SetRame{
+		width: 1000px;
+		height:175px;
+	}
+	.AntetTara
+	{
+		margin-left:300px;
+		margin-right:300px;
+	}
+}
+
+@media screen and (max-width:1000px)
+{
+	.Rama{
+		width:125px;
+		height:100px;
+	}
+	.SetRame{
+		width: 700px;
+		height:125px;
+	}
+	.DescPoza{
+		font-size:10px;
+	}
+	.AntetTara
+	{
+		margin-left:200px;
+		margin-right:200px;
+	}
+}
+
+@media screen and (max-width:800px)
+{
+	.Rama{
+		width:125px;
+		height:100px;
+	}
+	.SetRame{
+		width: 700px;
+		height:125px;
+	}
+	.DescPoza{
+		font-size:10px;
+	}
+	.AntetTara
+	{
+		margin-left:100px;
+		margin-right:100px;
+		height:50px;
+	}
+	.Titlu
+	{
+		font-size:30px;
+		margin-top:10px;
+	}
+}
+
+@media screen and (max-width:600px)
+{
+	.Rama{
+		width:125px;
+		height:100px;
+	}
+	.SetRame{
+		width: 600px;
+		height:125px;
+	}
+	.DescPoza{
+		font-size:10px;
+	}
+	.AntetTara
+	{
+		margin-left:50px;
+		margin-right:50px;
+	}
+}
