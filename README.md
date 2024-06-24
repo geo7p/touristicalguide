@@ -1,1 +1,1 @@
-# touristpedia
+# touristicalguide
